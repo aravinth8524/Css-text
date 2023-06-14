@@ -1,0 +1,170 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	
+}
+body{
+	padding:2em;
+}
+div h3{
+	padding-top:2em;
+}
+#div1{
+	border:2px solid red;
+	
+}
+#div1 h2{
+	color:rgb(0,255,0);
+	padding:2em;
+}
+#div1 h3{
+	background-color:rgb(0,200,0);
+	padding:2em;
+	
+}
+#div2{
+	padding:2em;
+	border:2px dashed blue;
+}
+#div2 h3{
+	padding-top:2em;
+}
+#para1{
+	text-align:left;
+}
+#para2{
+	text-align:right;
+}
+#para3{
+	text-align:center;
+}
+#para4{
+	text-align:justify;
+}
+#div3{
+	padding:2em;
+	border:2px dotted #A0270E;
+}
+#div3 h3{
+	padding-top:2em;
+}
+#para5{
+	text-align-last:left;
+}
+#para6{
+	text-align-last:right;
+}
+#para7{
+	text-align-last:center;
+}
+#para8{
+	text-align-last:justify;
+}
+#div4{
+	padding:2em;
+	border:2px double gray;
+}
+#div4 h3{
+	padding-top:2em;
+}
+#para9{
+	direction:ltr;
+}
+#para10{
+	direction:rtl;
+}
+#div5{
+	padding:2em;
+	border: solid red;
+	border-width:10px 20px 30px 40px;
+}
+#para11{
+	direction:rtl;
+	unicode-bidi:bidi-override;
+}
+#div6{
+	padding:2em;
+	border:solid green;
+	border-width:5px 10px 15px 20px;
+}
+span{
+	vertical-align:super;
+	background-color:red;
+}
+.sub{
+	vertical-align:sub;
+}
+#div7{
+	padding:2em;
+	border-width:5px 10px 15px 20px;
+	border-style:solid double dotted dashed;
+	border-color: yellow red blue green;
+	
+}
+#div7 h3{
+	padding-top:2em;
+	
+}
+.decoretion1{
+	text-decoration:overline gray solid 3px;
+}
+.decoretion2{
+	text-decoration:underline red double 5px;
+}
+.decoretion3{
+	text-decoration-line:line-through;
+	text-decoration-color:green;
+	text-decoration-style:wavy;
+	text-decoration-thickness:10px;
+}
+.texttransformation{
+	padding:2em;
+	border:2px double red;
+	
+}
+.para1{
+	text-transform:uppercase;
+}
+.para2{
+	text-transform:lowercase;
+}
+.para3{
+	text-transform:capitalize;
+}
+.textspacing{
+	border:5px solid #B1E7EC;
+}
+.para4{
+	text-indent:50%;
+}
+.para5{
+	letter-spacing:30px;
+}
+.para6{
+	word-spacing:20px;
+}
+.para7{
+	white-space:nowrap;
+}
+.textshadow{
+	padding:2em;
+	text-align:center;
+	font-size:3em;
+	text-shadow:-10px  0px green,10px 0 red,50px 10px yellow;;
+	
+}
+.boxshadow{
+	width:30%;
+	height:50%;
+	border:2px solid aqua;
+	margin-left:20em;
+	background:aqua;
+	box-shadow:5px 15px 5px black;
+}
+.boxshadow p{
+	font-size:2em;
+    font-family: Georgia, serif;
+	margin-top:3.5em;
+	text-align:center;
+}
